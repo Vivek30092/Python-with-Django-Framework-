@@ -1,0 +1,36 @@
+**JavaScript Notes**
+
+Variable in Js:
+They are used to save some data info. in  the code/prog. 
+
+syntx-
+    var a = 23; #Here var is a variant.
+
+
+There are few datatypes:
+premitive datatypes Number = for all Numbers,
+                    string = for strings
+                    and boolean = true/false
+What are functions in Js
+
+Functions are classified in the 4 types:
+
+1. No args and No return values
+2. No args and with return values
+3. With args and with return values
+4. With args and No return values
+
+
+Event Programming and Validations 
+
+Even is a exlusive operation.
+ DOM (Document Object model)
+ It is collection of html entities which can be access in JS by using DOM manuplations
+
+ Document is global Object of DOM
+
+ default event : onload
+
+ click based event
+ mouse based Event
+ 

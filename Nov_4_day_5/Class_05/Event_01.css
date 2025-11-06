@@ -1,0 +1,13 @@
+*{
+    background-color: aqua;
+    /* align-items: center; */
+}
+button{
+    background-color: chartreuse;
+    color: aliceblue;
+    align-self: center;
+}
+button:hover{
+    background-color: rgb(220, 185, 10);
+    color: rgb(5, 13, 19);
+}
