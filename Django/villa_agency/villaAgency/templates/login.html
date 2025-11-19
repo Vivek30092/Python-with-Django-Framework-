@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+{% include 'header.html' %}
+
+<body>
+    {% include 'navigation.html' %}
+
+    <div class="page-heading header-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h3>Login</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login area start -->
+   <div class="contact-page section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h6>| Login</h6>
+            <h2>Login to Villa Agency</h2>
+          </div>
+          <p>When you really need to download free CSS templates, please remember our website TemplateMo. Also, tell your friends about our website. Thank you for visiting. There is a variety of Bootstrap HTML CSS templates on our website. If you need more information, please contact us.</p>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="item phone">
+                <img src="{% static 'static/images/phone-icon.png' %}" alt="" style="max-width: 52px;">
+                <h6>+91 96915-70984<br><span>Phone Number</span></h6>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="item email">
+                <img src="{% static 'static/images/email-icon.png' %}" alt="" style="max-width: 52px;">
+                <h6>info@villa.co<br><span>Business Email</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <form id="contact-form" action="{% url 'login' %}" method="post">
+            {% csrf_token %}
+            <div class="row">
+              
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="email">Username</label>
+                  <input type="text" name="Username" id="username" placeholder="Username" required="">
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" placeholder="password"  required>
+                </fieldset>
+              </div>
+              
+              
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button">Login</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  {% include 'footer.html' %}
+</body>
+</html>
