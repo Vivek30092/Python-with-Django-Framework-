@@ -1,0 +1,27 @@
+API : used to communicate and exchange data between software
+types : 
+        1. REST API
+        2. FAST API
+* decorator function
+* PIP : package installer
+
+NumPY : 
+it's a python library that is used for scientific computing, mathematical operation and handling big data. 
+
+
+
+
+List VS NumPY Array 
+--> List:
+        * hetrogeneous data
+        * slow as compare to array due to type conversion
+
+--> Array:
+        * homogeneous data
+        * faster because no type conversion is required
+
+
+Types of Array : 
+        1D array:
+        contains single types of data
+
