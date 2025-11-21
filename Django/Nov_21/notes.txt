@@ -25,3 +25,6 @@ Types of Array :
         1D array:
         contains single types of data
 
+
+copy does't change the original object but the view changes the original object
+
